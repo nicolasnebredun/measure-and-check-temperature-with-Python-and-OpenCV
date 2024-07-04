@@ -1,0 +1,20 @@
+{
+"workbench.colorTheme": "Min Dark",
+"editor.fontFamily": "JetBrains Mono",
+"editor.lineHeight": 1.8,
+"editor.rulers": [80,120],
+"workbench.startupEditor": "newUntitledFile",
+"editor.fontSize": 15,
+"workbench.editor.labelFormat": "short",
+"explorer.compactFolders": false,
+"editor.semanticHighlighting.enabled": false,
+"breadcrumbs.enabled": false,
+"workbench.activityBar.location": "hidden",
+"editor.minimap.enabled": false,
+"editor.scrollbar.vertical": "hidden",
+"editor.scrollbar.horizontal": "hidden",
+"workbench.statusBar.visible": true
+
+
+
+}
