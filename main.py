@@ -11,17 +11,17 @@ import http.client
 import json
 def call_api1():
 
-    conn = http.client.HTTPConnection("10.1.1.26", 8182)
+    conn = http.client.HTTPConnection("")
     payload = json.dumps({
         "args": {
-        "to": "5569992692250@c.us", 
+        "to": "Number", 
         "content": "ATENÇÃO: Algo De errado na Maquina de Vigilancia, Verificar a Maquina!"
         }
         })
     headers = {
         'Content-Type': 'application/json'
         }
-    conn.request("POST", "/eagle-session/sendText", payload, headers)
+    conn.request("POST", "URL", payload, headers)
     res = conn.getresponse()
     data = res.read()
     print('Mensagem Enviada')
